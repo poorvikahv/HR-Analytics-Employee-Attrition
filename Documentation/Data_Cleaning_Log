@@ -1,0 +1,88 @@
+# Data Cleaning Log
+
+## 1. Overview
+
+Data cleaning and validation were performed on the IBM HR Analytics Employee Attrition dataset using Microsoft Excel.
+
+The original dataset contains 1,470 employee records.
+
+Two worksheets were maintained:
+
+- Raw_Data – Original dataset preserved without modification.
+- Cleaned_Data – Worksheet used for data validation and cleaning.
+
+## 2. Data Quality Checks
+
+### 2.1 Duplicate Employee IDs
+
+- EmployeeNumber was identified as the unique employee identifier.
+- Duplicate checking was performed using Excel's Remove Duplicates feature.
+- Only EmployeeNumber was selected for duplicate identification.
+
+### 2.2 Missing Values
+
+Important columns were inspected for blank values, including:
+
+- Age
+- EmployeeNumber
+- Department
+- MonthlyIncome
+- JobRole
+- Attrition
+- YearsAtCompany
+
+**Result:** No blank values were identified in the inspected columns.
+
+### 2.3 Extra Spaces
+
+Text columns were inspected for unnecessary spaces.
+
+Excel TRIM() was considered as a cleaning technique.
+
+**Result:** No unnecessary spaces were identified in the inspected Department values. No correction was required.
+
+### 2.4 Numeric Data Validation
+
+Numeric columns were checked using the Excel ISNUMBER() function.
+
+Example:
+
+`=ISNUMBER(A2)`
+
+**Result:** The tested Age value returned TRUE, confirming that it was stored as a number.
+
+### 2.5 Attrition Standardization
+
+The Attrition column was inspected for inconsistent values.
+
+**Result:** Only two consistent values were found:
+
+- Yes
+- No
+
+### 2.6 Department Validation
+
+The Department column was checked for consistent category names.
+
+**Result:** The following three department names were identified:
+
+- Sales
+- Research & Development
+- Human Resources
+
+## 3. Excel Functions and Features Used
+
+- TRIM()
+- ISNUMBER()
+- Remove Duplicates
+- Excel Filters
+- Excel Tables
+- Conditional Formatting
+
+## 4. Conclusion
+
+The dataset underwent data quality validation to identify missing values, unnecessary spaces, inconsistent categories, and numeric data issues.
+
+No corrections were required for the inspected missing-value, Department spacing, Attrition, and Department category checks.
+
+The original Raw_Data worksheet was preserved throughout the process.

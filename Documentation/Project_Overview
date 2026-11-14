@@ -1,0 +1,69 @@
+# HR Analytics – Employee Attrition Analysis
+
+## 1. Project Introduction
+
+The HR Analytics – Employee Attrition Analysis project focuses on analyzing employee data to understand workforce distribution, employee attrition, income patterns, and employee-related trends using Microsoft Excel.
+
+The main objective is to transform raw HR data into meaningful insights that can help organizations understand employee turnover and support better HR decision-making.
+
+## 2. Project Objectives
+
+- Analyze total employee count and workforce distribution.
+- Identify employee attrition patterns.
+- Calculate the employee attrition rate.
+- Analyze average employee age, income, and tenure.
+- Examine employee demographics and departmental distribution.
+- Identify important workforce trends using Excel analysis.
+
+## 3. Dataset Information
+
+**Dataset:** IBM HR Analytics Employee Attrition Dataset
+
+**Source:** IBM HR Analytics Employee Attrition & Performance dataset, originally published on Kaggle.
+
+**Total Records:** 1,470 employee records.
+
+The dataset contains employee information such as:
+
+- Age
+- Attrition
+- Business Travel
+- Department
+- Education
+- Education Field
+- Gender
+- Job Role
+- Monthly Income
+- OverTime
+- Years At Company
+- Job Satisfaction
+- Work-Life Balance
+
+## 4. Tools and Technologies
+
+- Microsoft Excel
+- Excel Formulas
+- Excel Tables
+- Data Cleaning
+- Data Analysis
+- Conditional Formatting
+- Data Visualization
+
+## 5. Project Workflow
+
+1. Dataset collection and import.
+2. Creation of Raw_Data and Cleaned_Data worksheets.
+3. Data quality validation.
+4. Data cleaning and formatting.
+5. Employee data analysis.
+6. KPI calculation.
+7. Conditional formatting.
+8. Dashboard development and visualization.
+
+## 6. Expected Business Value
+
+This project helps HR teams understand employee attrition, monitor workforce metrics, identify potential retention challenges, and make data-driven decisions.
+
+## 7. Conclusion
+
+The project demonstrates the use of Microsoft Excel for data cleaning, analysis, KPI development, and business reporting using a real-world HR analytics dataset.

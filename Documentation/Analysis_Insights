@@ -1,0 +1,74 @@
+# HR Analytics – Analysis and Business Insights
+
+## 1. Overview
+
+This document summarizes the key workforce metrics calculated using Microsoft Excel from the IBM HR Analytics Employee Attrition dataset.
+
+## 2. Key Performance Indicators (KPIs)
+
+| Metric | Value |
+|---|---:|
+| Total Employees | 1,470 |
+| Employees Left | 237 |
+| Active Employees | 1,233 |
+| Attrition Rate | 16.12% |
+| Average Age | 36.92 |
+| Average Income | 6,502.93 |
+| Average Tenure | 7.01 years |
+
+## 3. Additional Analysis
+
+| Metric | Result |
+|---|---:|
+| Sales Employees Left | 92 |
+| Average Income of Employees Left | 4,787.09 |
+| Overtime Employees Left | 127 |
+| Job Role of Employee 1001 | Laboratory Technician |
+
+## 4. Key Business Insights
+
+### 4.1 Employee Attrition
+
+A total of 237 employees left the organization out of 1,470 employees.
+
+The calculated attrition rate is 16.12%.
+
+This metric provides an overview of employee turnover within the organization.
+
+### 4.2 Active Workforce
+
+The organization has 1,233 active employees, representing the remaining workforce in the dataset.
+
+### 4.3 Average Employee Income
+
+The overall average employee income is 6,502.93.
+
+The average income of employees who left is 4,787.09.
+
+This difference can be investigated further to understand possible relationships between compensation and employee attrition.
+
+### 4.4 Department-Wise Attrition
+
+The Sales department recorded 92 employees who left.
+
+This makes department-level employee retention an important area for further investigation.
+
+### 4.5 Overtime and Attrition
+
+A total of 127 employees who left were identified in the overtime analysis.
+
+This observation can be explored further to understand the relationship between overtime and employee turnover.
+
+## 5. Recommendations
+
+- Monitor employee attrition regularly.
+- Investigate department-wise employee turnover.
+- Examine compensation patterns among employees who leave.
+- Evaluate overtime distribution and employee retention.
+- Monitor employee satisfaction and work-life balance.
+
+## 6. Conclusion
+
+The analysis provides an overview of employee attrition, workforce strength, income, and tenure.
+
+The findings can help HR teams identify areas that require further investigation and support data-driven workforce planning.

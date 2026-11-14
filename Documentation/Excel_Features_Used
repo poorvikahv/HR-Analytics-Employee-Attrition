@@ -1,0 +1,90 @@
+# Excel Features Used
+
+## 1. Project Overview
+
+Microsoft Excel was used to clean, organize, analyze, and present the IBM HR Analytics Employee Attrition dataset.
+
+This document describes the Excel features and techniques used throughout the project.
+
+## 2. Data Management
+
+### Worksheets
+
+- Raw_Data
+- Cleaned_Data
+- Analysis
+
+### Excel Tables
+
+The cleaned employee dataset was converted into an Excel Table.
+
+**Table Name:** tblEmployees
+
+Excel Tables provide structured data management, filtering, and easier analysis.
+
+## 3. Data Cleaning Features
+
+The following Excel features were used:
+
+- Remove Duplicates
+- Column Filters
+- TRIM() for removing unnecessary spaces
+- ISNUMBER() for numeric data validation
+- Excel Table formatting
+
+## 4. Excel Formulas
+
+### ISNUMBER()
+
+Used to verify whether a cell contains a numeric value.
+
+Example:
+
+`=ISNUMBER(A2)`
+
+### TRIM()
+
+Used to remove unnecessary spaces from text.
+
+Example:
+
+`=TRIM(E2)`
+
+### Other Analysis Formulas
+
+Excel formulas were used to calculate employee metrics, including:
+
+- Total Employees
+- Employees Left
+- Active Employees
+- Attrition Rate
+- Average Age
+- Average Income
+- Average Tenure
+
+## 5. Conditional Formatting
+
+Conditional formatting was applied to improve the visual presentation of analysis results.
+
+### Attrition Rate
+
+- Red highlighting for values greater than 15%.
+- Green highlighting for values below 10%.
+
+### Average Income
+
+- Blue gradient data bars were applied to represent income values visually.
+
+### Satisfaction Levels
+
+Color scales can be applied when satisfaction analysis tables are included.
+
+## 6. Analysis and Reporting
+
+An Analysis worksheet was created to present important workforce metrics and additional employee analysis.
+
+The worksheet includes KPI values and supporting analysis results.
+
+## 7. Conclusion
+
+The project demonstrates the practical use of Microsoft Excel features for data cleaning, validation, analysis, and professional business reporting.
