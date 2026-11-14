@@ -1,0 +1,69 @@
+# HR Analytics – Employee Attrition Analysis
+
+## Project Overview
+This project analyzes employee attrition using Microsoft Excel and the IBM HR Analytics Employee Attrition dataset. The objective is to understand employee turnover, identify workforce patterns, and generate useful HR insights through data analysis.
+
+## Dataset
+- Dataset: IBM HR Analytics Employee Attrition
+- Total Records: 1,470 employees
+- Key attributes: Age, Department, Job Role, Monthly Income, Years at Company, Overtime, and Attrition.
+
+## Tools and Technologies
+- Microsoft Excel
+- Excel Tables
+- Excel Formulas
+- Data Cleaning
+- Conditional Formatting
+- KPI Analysis
+
+## Project Structure
+```text
+HR-Analytics-Employee-Attrition/
+│
+├── Dataset/
+├── Excel_Workbook/
+├── Documentation/
+│   ├── Project_Overview.md
+│   ├── Data_Cleaning_Log.md
+│   ├── Analysis_Insights.md
+│   └── Excel_Features_Used.md
+├── Dashboard_Screenshots/
+└── README.md
+```
+
+## Key Performance Indicators
+
+| Metric | Result |
+|---|---:|
+| Total Employees | 1,470 |
+| Employees Left | 237 |
+| Active Employees | 1,233 |
+| Attrition Rate | 16.12% |
+| Average Age | 36.92 |
+| Average Monthly Income | 6,502.93 |
+| Average Tenure | 7.01 years |
+
+## Key Analysis Areas
+- Overall employee attrition.
+- Active employees compared with employees who left.
+- Department-wise employee attrition.
+- Average income of employees who left.
+- Overtime-related attrition.
+- Employee demographics and tenure.
+
+## Excel Features Used
+- Data cleaning and validation.
+- Excel Tables and filters.
+- Duplicate checking.
+- Excel formulas.
+- Conditional formatting.
+- KPI reporting.
+
+## Project Outcome
+The analysis provides an overview of employee attrition and workforce characteristics. It demonstrates how Microsoft Excel can be used to clean, analyze, and present HR data to support data-driven decision-making.
+
+## Author
+Poorvika HV
+
+## Project Type
+Data Analytics Portfolio Project
